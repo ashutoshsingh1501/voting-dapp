@@ -699,3 +699,9 @@ Contract {
 > contractInstance.totalVotesFor.call('Mac')
 { [String: '2'] s: 1, e: 0, c: [ 2 ] }
 ```
+
+## Running through web
+- copy contract code to Remix-solidity online compiler
+- compile contract, copy ABI and paste it in index.js
+- Copy address of deployed contract in index.js
+- run index.html in browser
