@@ -60,7 +60,7 @@ Listening on localhost:8545
 
 ## Compile Run contract on node (using solidity compiler, Web3.js)
 ```
-Machine: user$ node
+system: user $ node
 > Web3 = require('web3')
 { [Function: Web3]
   providers: 
