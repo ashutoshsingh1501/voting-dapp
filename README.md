@@ -686,3 +686,16 @@ Contract {
   allEvents: [Function: bound ] }
 > 
 ```
+
+## Calling contract
+
+```
+> contractInstance.totalVotesFor.call('Mac')
+{ [String: '0'] s: 1, e: 0, c: [ 0 ] }
+> contractInstance.voteForMachine('Mac', {from: web3.eth.accounts[0]})
+'0xb480c29ada4c0c098d4cb45c8853afadd70df417cfc1ed5c38766423e3479110'
+> contractInstance.voteForMachine('Mac', {from: web3.eth.accounts[1]})
+'0xc787947e7e66deadc9bb0a74d6578a98486a6c149cfa1dfc2570d0694be6ffbe'
+> contractInstance.totalVotesFor.call('Mac')
+{ [String: '2'] s: 1, e: 0, c: [ 2 ] }
+```
