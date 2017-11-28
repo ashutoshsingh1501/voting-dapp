@@ -1,0 +1,14 @@
+.idea/
+node_modules/
+static/dist/
+*.iml
+webpack-assets.json
+webpack-stats.json
+npm-debug.log
+.happypack
+webpack/dlls/*.json
+*.report.html
+coverage
+package-lock.json
+uploads
+
