@@ -324,6 +324,8 @@ Web3 {
 
 ## Deploy Contract on Blockchain
 ```
+abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
+
 VotingContract = web3.eth.contract(abiDefinition)
 ContractFactory {
   eth: 
